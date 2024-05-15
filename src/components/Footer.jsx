@@ -35,7 +35,9 @@ const Footer = () => {
               />
             </div>
             <div>
-              <p className="text-[#0A80DA] font-bold sm:text-lg">ReactJs Dev.</p>
+              <p className="text-[#0A80DA] font-bold sm:text-lg">
+                ReactJs Dev.
+              </p>
               <p>1-5 Years of exp</p>
             </div>
           </div>
@@ -49,7 +51,9 @@ const Footer = () => {
               />
             </div>
             <div>
-              <p className="text-[#0A80DA] font-bold sm:text-lg">Wordpress Dev.</p>
+              <p className="text-[#0A80DA] font-bold sm:text-lg">
+                Wordpress Dev.
+              </p>
               <p>1-5 Years of exp</p>
             </div>
           </div>
@@ -80,16 +84,18 @@ const Footer = () => {
           readable
         </p>
 
-        <div>
+        <div className="flex flex-col gap-1">
           <input
             type="text"
             placeholder="Email"
             className="pl-4 pr-4 bg-[#E2E2E2] border-slate-500 border-2 pt-2 pb-2 rounded-xl"
           />
+          <div className="flex flex-row-reverse">
+            <button className="bg-[#0A80DA] text-white p-2 border rounded-xl pr-4 pl-4 w-[6em]">
+              Submit
+            </button>
+          </div>
         </div>
-        <button className="bg-[#0A80DA] text-white p-2 border rounded-xl pr-4 pl-4 w-[6em] relative left-[7.8em]">
-          Submit
-        </button>
       </div>
     </div>
   );
