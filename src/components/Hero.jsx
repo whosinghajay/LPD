@@ -31,9 +31,9 @@ const Hero = () => {
                 placeholder="Your work mail id"
                 className="ml-5 outline-none"
               />
-              <button className="bg-[#0A80DA] text-white flex gap-2 justify-between items-center border rounded-full px-6 sm:px-5 my-[0.15rem]">
-                <span className="text-sm sm:text-lg">Hire Now</span>{" "}
-                <FaArrowRight />
+              <button className="bg-[#0A80DA] min-w-[101px] text-white flex gap-2 justify-between items-center border rounded-full px-[0.5em] sm:px-5 my-[0.15rem]">
+                <span className="text-sm sm:text-lg">Hire Now</span>
+                <FaArrowRight size={15} />
               </button>
             </div>
           </div>
@@ -60,8 +60,16 @@ const Hero = () => {
           alt="peopleNlike Image"
           className="absolute top-[0.5em] sm:top-[4em] left-[10em] sm:left-[36em] transform scale-75 sm:scale-100"
         />
-        <img src="/heroSectionImg1.svg" alt="Hero Section Image" className="transform scale-150 sm:scale-100 "/>
-        <img src="/nameNexp.svg" alt="nameNexp Image" className="absolute top-[10em] sm:top-[31em] left-[6em] sm:left-[22em] transform scale-75 sm:scale-100" />
+        <img
+          src="/heroSectionImg1.svg"
+          alt="Hero Section Image"
+          className="transform scale-150 sm:scale-100 "
+        />
+        <img
+          src="/nameNexp.svg"
+          alt="nameNexp Image"
+          className="absolute top-[10em] sm:top-[31em] left-[6em] sm:left-[22em] transform scale-75 sm:scale-100"
+        />
       </div>
     </div>
   );
