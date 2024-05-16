@@ -2,14 +2,14 @@ import React from "react";
 
 const Discover = () => {
   return (
-    <div className="flex flex-col justify-between items-center sm:gap-9 mt-[3rem] sm:mt-[7rem]">
+    <div className="flex flex-col justify-between items-center lg:gap-9 mt-[2.5rem] lg:mt-[6rem] xl:mt-[7rem]">
       <div className="flex flex-col justify-between items-center gap-1">
-        <p className="text-[#0A80DA] font-semibold text-lg sm:text-xl">\Discover\</p>
-        <p className="text-slate-800 font-bold text-3xl sm:text-4xl">
+        <p className="text-[#0A80DA] font-semibold text-lg xl:text-xl">\Discover\</p>
+        <p className="text-slate-800 font-bold text-3xl xl:text-4xl text-center">
           What you're looking for
         </p>
       </div>
-      <div className="flex flex-col gap-4 sm:grid grid-rows-2 grid-flow-col sm:gap-6 transform scale-90">
+      <div className="flex flex-col md:grid gap-4 xl:grid grid-rows-2 grid-flow-col xl:gap-6 transform scale-90 md:scale-[70%] lg:scale-90 xl:scale-100  mt-[-4em] md:mt-[-3em] lg:mt-0">
         <div className="bg-[#F7F7F7] p-6 w-[21.5rem] h-[17.9rem] flex flex-col gap-4 border-2">
           <img src="/frontEnd.svg" alt="" className="" width={50} />
           <p className="font-semibold">Front End</p>

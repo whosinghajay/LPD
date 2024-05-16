@@ -2,13 +2,13 @@ import React from "react";
 
 const GetInTouch = () => {
   return (
-    <div className="flex flex-col justify-between items-center mt-[8rem] pb-[12rem] gap-12 bg-gradient-to-r from-[#000428] to-[#004e92]">
+    <div className="flex flex-col justify-between items-center mt-[-2rem] sm:mt-[8em] pb-[12rem] gap-12 bg-gradient-to-r from-[#000428] to-[#004e92]">
       <div className="flex flex-col justify-between items-center gap-1 pt-[6rem]">
         <p className="text-[#0A80DA] font-semibold text-xl">\Get in Touch\</p>
         <p className="text-white font-bold text-4xl">Hey! Let's Talk</p>
       </div>
 
-      <div className="max-w-fit mr-auto ml-auto mt-10 flex flex-col sm:flex-row  gap-6">
+      <div className="max-w-fit mr-auto ml-auto mt-10 flex flex-col md:flex-row xl:flex-row  gap-6">
         <div className="bg-white border rounded-xl">
           <form action="" className="flex flex-col gap-4 p-8">
             <input
@@ -30,7 +30,7 @@ const GetInTouch = () => {
               name="message"
               id="message"
               placeholder="Your Message"
-              className="border-2 outline-none rounded-md bg-slate-50 pt-2 pl-2 w-[16em] sm:w-full"
+              className="border-2 outline-none rounded-md bg-slate-50 pt-2 pl-2 w-[16em] md:w-[20em] lg:w-[30em] xl:w-full"
               cols={80}
               rows={6}
             ></textarea>
